@@ -55,6 +55,12 @@ function draw() {
   // Draw all RED Triangles
   ctx.fillStyle = "red";
 
+  ctx.beginPath();
+  ctx.moveTo(100, 0);
+  ctx.lineTo(100, 0);
+  ctx.lineTo(100, 100);
+  ctx.fill();
+
   // Draw all YELLOW Triangles
   ctx.fillStyle = "yellow";
 }

@@ -53,27 +53,12 @@ function draw() {
   ctx.fillStyle = "pink";
 
   fillTriangle(100, 0, 100, 100, 200, 100);
-  fillTriangle(0, 100, 100, 200, 0, 200);
-  fillTriangle(400, 100, 300, 100, 400, 200);
-  fillTriangle(300, 200, 200, 200, 300, 300);
-  fillTriangle(100, 300, 200, 300, 200, 400);
 
   // Draw all RED Triangles
   ctx.fillStyle = "red";
 
-  fillTriangle(300, 0, 300, 100, 400, 100);
-  fillTriangle(0, 100, 100, 100, 100, 200);
-  fillTriangle(200, 100, 300, 100, 200, 200);
-  fillTriangle(300, 200, 400, 200, 300, 300);
-  fillTriangle(200, 200, 200, 300, 100, 300);
-
   // Draw all YELLOW Triangles
   ctx.fillStyle = "yellow";
-
-  fillTriangle(200, 100, 200, 200, 100, 200);
-  fillTriangle();
-  fillTriangle(200, 100, 300, 100, 200, 200);
-  fillTriangle(300, 200, 400, 200, 300, 300);
 }
 
 function fillTriangle(x1, y1, x2, y2, x3, y3) {
